@@ -1,0 +1,65 @@
+body{
+    background: rgb(147, 133, 133);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.card {
+    background-color: white;
+    width: 350px;
+    margin-top: 33px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    display: block;
+    margin: auto;
+    align-items: center;
+}
+
+.name {
+    text-align: center;
+    font-size: 25px;
+}
+
+.role {
+    text-align: center;
+    font-size: 16px;
+}
+
+#about {
+    margin: 10px 0;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+
+.Skills div {
+    background-color: rgba(219, 122, 80, 0.705);
+    padding: 5px 11px;
+    border-radius: 5px;
+}
+
+.project {
+    margin-top: 10px;
+    display: grid;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+.profile{
+    display: flex;
+    justify-content: space-around;
+}
+.profile a{
+    text-decoration: none;
+    padding: 5px 18px;
+    background-color: rgba(31, 26, 26, 0.733);
+    color: white;
+    border-radius: 8px;
+}

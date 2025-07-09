@@ -1,0 +1,41 @@
+.main{
+    padding: 10px;
+    margin:5px;
+    background-color: rgba(118, 6, 6, 0.912); 
+    justify-content: center;   
+    
+}
+
+#orange{
+    padding: 10px;
+    background-color: orange;
+    height: 25vh;
+    width: 95vw;
+    border-radius: 50px;
+
+}
+
+#white{
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    width: 95vw;
+    border-radius: 50px;
+}
+
+#green{
+    padding: 10px;
+    background-color: green;
+    height: 25vh;
+    width: 95vw;
+    border-radius: 50px;
+}
+
+#chakra img{
+    padding: 10px;
+    height: 20vh;
+    width: 10vw;
+}
