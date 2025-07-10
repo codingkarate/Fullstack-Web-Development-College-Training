@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Registration Form</h2>
+        <form>
+            <label for="fullname">NAME</label>
+            <input type="text", id="fullname" placeholder="Enter your name">
+            <label for="email">E-MAIL</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password">
+            <label for="dob">DATE OF BIRTH</label>
+            <input type="date" id="dob">
+            <label for="gender">GENDER</label>
+            <div class="radio-group">
+                <label>
+                    <input type="radio", name="gender", value="male">
+                    male                
+                </label>
+                <label>
+                    <input type="radio", name="gender", value="female">
+                    female                
+                </label>
+                <label>
+                    <input type="radio", name="gender", value="others">
+                    others                
+                </label>
+            </div>
+            <label>HOBBIES</label>
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox", name="hobbies", value="reading">
+                    reading                
+                </label>
+                <label>
+                    <input type="checkbox", name="hobbies", value="traveling">
+                    traveling                
+                </label>
+                <label>
+                    <input type="checkbox", name="hobbies", value="gaming">
+                    gaming                
+                </label>
+            </div>
+            <label for="country">COUNTRY</label>
+            <select id="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+                <option value="india">India</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="bio">BIO</label>
+            <textarea name="bio" id="bio" placeholder="Enter a short bio">.....</textarea>
+        <button type="submit" id="submit">Register</button>
+
+        </form>
+    </div>
+</body>
+</html>

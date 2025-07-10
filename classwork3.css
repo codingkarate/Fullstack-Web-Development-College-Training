@@ -1,0 +1,155 @@
+.navbar {
+  background-color: rgb(167, 166, 166);
+  padding: 0px;
+  height: 63px;
+  margin: 0px;
+  display: flex;
+  border-radius: 50px;
+  /* border: 6px solid rgb(118, 6, 6); */
+}
+
+#home {
+  padding: 10px;
+  margin: 5px;
+
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+}
+
+#About {
+  padding: 10px;
+  margin: 5px;
+
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+}
+
+#services {
+  padding: 10px;
+  margin: 5px;
+
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+}
+
+#blank {
+  padding: 10px;
+  margin: 5px;
+  width: 1068px;
+  color: rgb(252, 252, 252);
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+}
+
+#contact {
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+}
+
+#login {
+  padding: 10px;
+  margin: 5px;
+  /* border: greenyellow solid 2px; */
+  color: rgb(198, 7, 7) solid 2px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  color: rgb(0, 255, 187);
+}
+
+#login button {
+  background-color: sandybrown;
+}
+
+.corner {
+  background-color: rgb(167, 166, 166);
+  padding: 2px;
+  margin: 2px;
+  display: flex;
+  /* border: red solid 2px; */
+}
+
+#banner img {
+  width: 100%;
+  height: 459px;
+  display: block;
+  /* justify-content: center;
+    align-items: center; */
+}
+.cards{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 200px;
+}
+#card1 {
+  display: flex;
+
+  flex-direction: column;
+}
+#card2 {
+  display: flex;
+  flex-direction: column;
+}
+#card3 {
+  display: flex;
+  flex-direction: column;
+}
+
+#c1,
+#c2,
+#c3 {
+  background-color: rgb(167, 166, 166);
+  padding: 10px;
+  margin: 5px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  height: 100px;
+}
+
+.butns {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+#b1{
+  margin-left: 60px;
+}
+#b2{
+  margin-left: 78px;
+}
+#b3{
+  margin-left: 96px;
+}
+
+.affimages{
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.affimages img{
+  height: 95px;
+  width: 95px;
+  border-radius: 50%;
+}
