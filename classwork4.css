@@ -1,15 +1,15 @@
-/* .container{
+ .container{
     display: grid;
     grid-template-columns: 150px 150px 150px;
     grid-template-rows: 150px 150px 150px;
     gap: 5px;
-    /* justify-content: center;
+    justify-content: center;
     align-items: center; 
     position:absolute;
     
 }
 
-.item{
+/*.item{
     border: 1px solid black;
     background-color: rgb(249, 241, 6);
     display: flex;
