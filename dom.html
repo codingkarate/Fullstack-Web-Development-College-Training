@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head">WELCOME</h1>
+    <label for="fullname">NAME</label>
+    <input type="text", id="fullname" placeholder="Enter your name">
+    <button onclick="change()">greet</button>
+        
+    
+    <script>
+        function change(){
+            const name = document.getElementById("fullname").value;
+            document.getElementById("head").innerHTML = `Hello ${name}`;
+        }
+    </script>
+</body>
+</html>
